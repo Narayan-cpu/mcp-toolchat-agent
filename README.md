@@ -68,7 +68,7 @@ Imagine a user types:
 
 ## 🧠 Architecture Diagram
 
-![mcp-toolchat-agent](./mcp - arch.png)
+![Architecture Diagram](./mcp-arch.png)
 
 
 ## 📁 Project Files
@@ -198,6 +198,7 @@ This project is a solid prototype for **next-gen AI interfaces** – combining t
 * Custom research agents
 
 ---
+
 
 
 
