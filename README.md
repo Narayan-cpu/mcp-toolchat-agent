@@ -1,4 +1,4 @@
----
+
 
 # 🧠 Intelligent Memory-Enabled Agent with LangChain, Groq, and MCP Integration
 
@@ -6,7 +6,6 @@
 
 **"Tool-Augmented Conversational AI using LangChain, MCP, and Groq’s LLaMA 3 LLM"**
 
----
 
 ## 📝 Abstract
 
@@ -213,3 +212,4 @@ This project is a solid prototype for **next-gen AI interfaces** – combining t
 * Custom research agents
 
 ---
+
