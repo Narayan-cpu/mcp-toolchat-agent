@@ -66,8 +66,6 @@ Imagine a user types:
 * Invokes `@openbnb/mcp-server-airbnb` to fetch listings.
 * Processes the structured JSON response using LLaMA-3 to provide human-like suggestions.
 
----
-
 ```mermaid
 flowchart TD
     A[User Input] -->|Text| B[MCP Agent (LangChain)]
@@ -83,7 +81,6 @@ flowchart TD
     B -->|Natural Language| A
 ```
 
----
 
 ## 📁 Project Files
 
@@ -212,6 +209,7 @@ This project is a solid prototype for **next-gen AI interfaces** – combining t
 * Custom research agents
 
 ---
+
 
 
 
