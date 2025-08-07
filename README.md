@@ -13,7 +13,7 @@ This project presents an interactive, memory-enabled conversational assistant th
 
 * **LangChain** – An open-source framework for building context-aware LLM agents.
 * **Groq** – A high-performance LLM provider using **LLaMA 3 70B**, offering low-latency, high-throughput inference.
-* **MCP (Multi-Component Protocol)** – A protocol designed to allow LLMs to interact with external tools in a structured, safe, and extensible way.
+* **MCP (Model context protocol)** – A protocol designed to allow LLMs to interact with external tools in a structured, safe, and extensible way.
 
 The agent supports **live tool usage** such as DuckDuckGo search, browser automation, and API-based queries, while maintaining **conversational memory** for contextual reasoning.
 
@@ -212,4 +212,5 @@ This project is a solid prototype for **next-gen AI interfaces** – combining t
 * Custom research agents
 
 ---
+
 
