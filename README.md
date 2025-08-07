@@ -68,8 +68,6 @@ Imagine a user types:
 
 ---
 
-## ⚙️ Architecture
-
 ```mermaid
 flowchart TD
     A[User Input] -->|Text| B[MCP Agent (LangChain)]
@@ -79,6 +77,8 @@ flowchart TD
     D --> E2[Playwright Browser Server]
     D --> E3[Airbnb API Server]
     E1 --> D
+    E2 --> D
+    E3 --> D
     D --> B
     B -->|Natural Language| A
 ```
@@ -212,5 +212,6 @@ This project is a solid prototype for **next-gen AI interfaces** – combining t
 * Custom research agents
 
 ---
+
 
 
