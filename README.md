@@ -66,20 +66,9 @@ Imagine a user types:
 * Invokes `@openbnb/mcp-server-airbnb` to fetch listings.
 * Processes the structured JSON response using LLaMA-3 to provide human-like suggestions.
 
-```mermaid
-flowchart TD
-    A[User Input] -->|Text| B[MCP Agent (LangChain)]
-    B --> C[LLM: ChatGroq (LLaMA3-70B)]
-    B --> D[MCP Client]
-    D --> E1[DuckDuckGo Tool Server]
-    D --> E2[Playwright Browser Server]
-    D --> E3[Airbnb API Server]
-    E1 --> D
-    E2 --> D
-    E3 --> D
-    D --> B
-    B -->|Natural Language| A
-```
+## 🧠 Architecture Diagram
+
+![MCP Agent Architecture](images/mcp-arch.png)
 
 
 ## 📁 Project Files
@@ -209,6 +198,7 @@ This project is a solid prototype for **next-gen AI interfaces** – combining t
 * Custom research agents
 
 ---
+
 
 
 
