@@ -12,7 +12,7 @@ async def run_memory_chat():
     if not groq_key:
         raise EnvironmentError("GROQ_API_KEY is missing. Please add it to your .env file.")
 
-    # (Optional) Only if a library requires os.environ directly
+   
     os.environ["GROQ_API_KEY"] = groq_key
 
     config_file = "browser_mcp.json"
